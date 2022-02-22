@@ -6,6 +6,7 @@ I notice there are lots of implementtions in the GitHub. Here, I highlight the a
  - Directly **running in Google Colab** without downloading/cloning the repo the local.
  - Using more practical datasets from libsvm instead of synthetic datasets.
  - Loading datasets directly from the internet (libsvm website), which make it easy to switch to another dataset (in libsvm).
+ - Using vectorized built-in functions in `numpy` instead of vanilla python operations, leading to better performance.
  - Clear code with helpful comments.
 
 ## Supervised Learning
