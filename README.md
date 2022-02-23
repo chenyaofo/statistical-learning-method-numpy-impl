@@ -12,7 +12,7 @@ I notice there are lots of implementtions in the GitHub. Here, I highlight the a
 ## Supervised Learning
 
  - *K*-nearest Neighbors Algorithm <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
-/blob/master/algorithms/KNN.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a> **TODO**
+/blob/master/algorithms/KNN.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a>
 
  - Naive Bayes Classifier <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
 /blob/master/algorithms/naive_bayes_classifier.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a> **TODO**
