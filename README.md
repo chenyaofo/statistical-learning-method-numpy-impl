@@ -1,4 +1,4 @@
-# Numpy Implementaton for  “Statistical Learning Method (by Li Hang)”
+# Numpy Implementaton for  *Statistical Learning Method (by Li Hang)*
 
 This repo aims to provide numpy implementation for the algorithms in the book Statistical Learning Method (by Li Hang), aka. 《统计机器学习》(李航).
 I notice there are lots of implementtions in the GitHub. Here, I highlight the advantage of my implementations:
