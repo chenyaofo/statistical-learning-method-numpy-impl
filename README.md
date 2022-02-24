@@ -1,62 +1,64 @@
-# Numpy Implementaton for  *Statistical Learning Method (by Li Hang)*
+# *统计学习方法 (李航)* Numpy实现 / Numpy Implementaton for  *Statistical Learning Method (by Li Hang)*
 
-This repo aims to provide numpy implementation for the algorithms in the book Statistical Learning Method (by Li Hang), aka. 《统计机器学习》(李航).
+本仓库旨在提供*统计学习方法*一书中算法的`numpy`实现。诚然在GitHub上已经有了许多类似的实现，但是本仓库有着以下优点：
+This repo aims to provide numpy implementation for the algorithms in the book *Statistical Learning Method*.
 I notice there are lots of implementtions in the GitHub. Here, I highlight the advantage of my implementations:
 
- - Directly **running in Google Colab** without downloading/cloning the repo the local.
- - Using more practical datasets from libsvm instead of synthetic datasets.
- - Loading datasets directly from the internet (libsvm website), which make it easy to switch to another dataset (in libsvm).
- - Using vectorized built-in functions in `numpy` instead of vanilla python operations, leading to better performance.
- - Clear code with helpful comments.
+ - **快速运行**：可以直接在**Google Colab**上直接运行，无需下载或克隆代码到本地。Directly **running in Google Colab** without downloading/cloning the repo the local.
+ - **高效运行**：使用`numpy`中向量化实现替代python中的循环等操作。Implement by vectorized built-in functions in `numpy` instead of vanilla python operations, leading to better performance.
+ - **真实数据集**：使用来自libsvm中的数据集而不是生成的数据。Using more practical datasets from libsvm instead of synthetic datasets.
+ - **无需提前下载数据集**：数据集将以在线的方式直接加载无需额外手动下载。Loading datasets directly from the internet (libsvm website) without extra manual downloading.
 
-## Supervised Learning
 
- - *K*-nearest Neighbors Algorithm <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
+## 监督学习 / Supervised Learning
+
+ - K近邻算法 / *K*-nearest Neighbors Algorithm <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
 /blob/master/algorithms/KNN.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a>
 
- - Naive Bayes Classifier <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
+ - 朴素贝叶斯法 / Naive Bayes Classifier <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
 /blob/master/algorithms/naive_bayes_classifier.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a> **TODO**
 
- - Decision Tree <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
+ - 决策树
+ / Decision Tree <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
 /blob/master/algorithms/decision_tree.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a> **TODO**
 
- - Maximum Entropy Model <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
+ - 最大熵模型 / Maximum Entropy Model <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
 /blob/master/algorithms/maximum_entropy_model.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a> **TODO**
 
- - Logistic Regression <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
+ - 逻辑斯蒂回归 / Logistic Regression <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
 /blob/master/algorithms/logistic_regression.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a> **TODO**
 
- - Supprt Vector Machine <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
+ - 支持向量机 Supprt Vector Machine <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
 /blob/master/algorithms/support_vector_machine.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a> **TODO**
 
- - AdaBoost <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
+ - 提升方法 / AdaBoost <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
 /blob/master/algorithms/adaboost.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a> **TODO**
 
- - Expectation Maximization Algorithm <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
+ - EM算法 / Expectation Maximization Algorithm <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
 /blob/master/algorithms/EM.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a> **TODO**
 
- - Hidden Markov Model <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
+ - 隐马尔可夫模型 / Hidden Markov Model <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
 /blob/master/algorithms/hidden_markov_model.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a> **TODO**
 
-## Unsupervised Learning
+## 无监督学习 / Unsupervised Learning
 
- - K-means Clustering <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
+ - K均值聚类 / K-means Clustering <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
 /blob/master/algorithms/K_means_clustering.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a> **TODO**
 
- - Hierachical Clustering <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
+ - 层次聚类 / Hierachical Clustering <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
 /blob/master/algorithms/hierachical_clustering.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a> **TODO**
 
- - Principal Components Analysis <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
+ - 主成分分析 / Principal Components Analysis <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
 /blob/master/algorithms/PCA.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a> **TODO**
 
- - Latent Semantic Analysis <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
+ - 潜在语义分析 / Latent Semantic Analysis <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
 /blob/master/algorithms/latent_semantic_analysis.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a> **TODO**
 
- - Probabilistic Latent Semantic Analysis <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
+ - 概率潜在语义分析 / Probabilistic Latent Semantic Analysis <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
 /blob/master/algorithms/probabilistic_latent_semantic_analysis.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a> **TODO**
 
- - Latent Dirichlet Allocation <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
+ - 潜在狄利克雷分配 / Latent Dirichlet Allocation <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
 /blob/master/algorithms/latent_dirichlet_allocation.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a> **TODO**
 
- - PageRank Algorithm <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
+ - PageRank算法 / PageRank Algorithm <a href="https://colab.research.google.com/github/chenyaofo/statistical-learning-method-numpy-impl
 /blob/master/algorithms/pagerank.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a> **TODO**
