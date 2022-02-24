@@ -9,6 +9,10 @@ I notice there are lots of implementtions in the GitHub. Here, I highlight the a
  - **真实数据集**：使用来自libsvm中的数据集而不是生成的数据。Using more practical datasets from libsvm instead of synthetic datasets.
  - **无需提前下载数据集**：数据集将以在线的方式直接加载无需额外手动下载。Loading datasets directly from the internet (libsvm website) without extra manual downloading.
 
+这个仓库不是：This repo is not:
+
+ - **算法详解**：只关注代码实现而不是算法本身的原理。details of algorithms. It focuses on implementations instead of other details of algorithms.
+ - **通用算法库**：本实现仅仅用于快速理解算法，并未对算法进行封装，也未考虑实际使用中的各类情况。a general algorithm library. This implementation is only used to quickly understand the algorithm, it does not encapsulate the algorithm, and does not consider various situations in actual use.
 
 ## 监督学习 / Supervised Learning
 
