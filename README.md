@@ -4,7 +4,7 @@
 This repo aims to provide numpy implementation for the algorithms in the book *Statistical Learning Method*.
 I notice there are lots of implementtions in the GitHub. Here, I highlight the advantage of my implementations:
 
- - **快速运行**：可以直接在**Google Colab**上直接运行，无需下载或克隆代码到本地。Directly **running in Google Colab** without downloading/cloning the repo the local.
+ - **快速运行**：可以直接在**Google Colab**上直接运行，无需下载或克隆代码到本地。Directly **running in Google Colab** without downloading/cloning the repo to the local.
  - **高效运行**：使用`numpy`中向量化实现替代python中的循环等操作。Implement by vectorized built-in functions in `numpy` instead of vanilla python operations, leading to better performance.
  - **真实数据集**：使用来自libsvm中的数据集而不是生成的数据。Using more practical datasets from libsvm instead of synthetic datasets.
  - **无需提前下载数据集**：数据集将以在线的方式直接加载无需额外手动下载。Loading datasets directly from the internet (libsvm website) without extra manual downloading.
