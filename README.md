@@ -1,4 +1,4 @@
-# *统计学习方法 (李航)* Numpy实现 / Numpy Implementaton for  *Statistical Learning Method (by Li Hang)*
+# *统计学习方法 (李航)* Numpy实现 / Numpy Implementaton for  *Statistical Learning Method (Hang Li)*
 
 本仓库旨在提供*统计学习方法*一书中算法的`numpy`实现。诚然在GitHub上已经有了许多类似的实现，但是本仓库有着以下优点：
 This repo aims to provide numpy implementation for the algorithms in the book *Statistical Learning Method*.
